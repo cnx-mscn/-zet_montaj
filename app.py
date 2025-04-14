@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # API anahtarını yükle
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("AIzaSyDwQVuPcON3rGSibcBrwhxQvz4HLTpF9Ws")
-gmaps = googlemaps.Client(key=AIzaSyDwQVuPcON3rGSibcBrwhxQvz4HLTpF9Ws)
+gmaps = googlemaps.Client(key="AIzaSyDwQVuPcON3rGSibcBrwhxQvz4HLTpF9Ws")
 
 st.set_page_config(layout="wide")
 SAATLIK_ISCILIK = 500
