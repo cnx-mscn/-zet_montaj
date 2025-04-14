@@ -6,3 +6,4 @@ streamlit-folium
 googlemaps
 haversine
 fpdf
+python-dotenv
